@@ -3,7 +3,7 @@
 Sitio web oficial de NexoVenta.
 
 ## Versión web
-v1.2
+v1.3
 
 ## Cambios
 - Sección comercial de precio
@@ -13,3 +13,8 @@ v1.2
 - CTA directo a WhatsApp
 - FAQ de licencia, renovación y dispositivos
 - Logo y capturas reales de NexoVenta
+
+- Favicon oficial de NexoVenta
+- Icono para dispositivos móviles
+- Apple Touch Icon
+- Web App Manifest
