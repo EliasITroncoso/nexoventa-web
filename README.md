@@ -3,13 +3,13 @@
 Sitio web oficial de NexoVenta.
 
 ## Versión web
-v1.1
+v1.2
 
-## Contenido
-- Landing comercial responsive
-- Logo oficial
-- Capturas reales de NexoVenta v1.3.0
-- Secciones de funciones, catálogo, clientes, ventas, FAQ y contacto
-
-## Publicación
-Pensado para despliegue automático desde GitHub a Cloudflare.
+## Cambios
+- Sección comercial de precio
+- Plan Comercio: $14.990 ARS/mes
+- 1 dispositivo incluido
+- Beneficios incluidos
+- CTA directo a WhatsApp
+- FAQ de licencia, renovación y dispositivos
+- Logo y capturas reales de NexoVenta
