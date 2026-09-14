@@ -1,20 +1,12 @@
-# nexoventa-web
+# NexoVenta Web v1.4
 
-Sitio web oficial de NexoVenta.
+Versión basada en v1.3.
 
-## Versión web
-v1.3
+Novedades:
+- Botón de Baja de Servicio visible desde la página principal.
+- Botón de Arrepentimiento visible desde la página principal.
+- Formularios reales conectados con la Edge Function `crear-solicitud` de Supabase.
+- Generación y visualización inmediata del número de solicitud.
+- Sin registro ni inicio de sesión.
 
-## Cambios
-- Sección comercial de precio
-- Plan Comercio: $14.990 ARS/mes
-- 1 dispositivo incluido
-- Beneficios incluidos
-- CTA directo a WhatsApp
-- FAQ de licencia, renovación y dispositivos
-- Logo y capturas reales de NexoVenta
-
-- Favicon oficial de NexoVenta
-- Icono para dispositivos móviles
-- Apple Touch Icon
-- Web App Manifest
+No se incluye ninguna clave de servicio/administración en el frontend. La web usa únicamente la clave publicable de Supabase.

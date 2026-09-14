@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Botón de Baja de Servicio | NexoVenta</title>
+  <meta name="description" content="Solicitá la baja del servicio NexoVenta de forma directa y obtené tu número de gestión." />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="/favicon.ico" sizes="any">
+</head>
+<body class="legal-page">
+  <header class="legal-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Volver a NexoVenta">
+        <img src="assets/nexoventa-logo.png" alt="Logo de NexoVenta" class="brand-logo">
+        <div><strong>NexoVenta</strong><span>Tu negocio, organizado</span></div>
+      </a>
+      <a class="legal-back" href="index.html">← Volver al sitio</a>
+    </div>
+  </header>
+
+  <main class="legal-main">
+    <div class="container legal-shell">
+      <div class="legal-title">
+        <span class="eyebrow">Gestión directa</span>
+        <h1>BOTÓN DE BAJA DE SERVICIO</h1>
+        <p>Completá el formulario para solicitar la baja de NexoVenta. No necesitás registrarte ni iniciar sesión.</p>
+      </div>
+
+      <div class="legal-notice">
+        Al enviar la solicitud recibirás en pantalla un número de gestión para identificar el trámite. Guardalo como comprobante.
+      </div>
+
+      <section class="legal-card">
+        <form id="solicitud-form" data-tipo="BAJA" novalidate>
+          <div class="form-grid">
+            <div class="form-field full">
+              <label for="nombre">Nombre o razón social *</label>
+              <input id="nombre" name="nombre" autocomplete="name" required maxlength="160" />
+            </div>
+
+            <div class="form-field">
+              <label for="email">Correo electrónico <span class="optional">(si tenés)</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" maxlength="200" />
+            </div>
+
+            <div class="form-field">
+              <label for="telefono">Teléfono / WhatsApp <span class="optional">(si tenés)</span></label>
+              <input id="telefono" name="telefono" type="tel" autocomplete="tel" maxlength="60" />
+            </div>
+
+            <div class="form-field full">
+              <p class="field-help">Ingresá al menos un correo electrónico o un teléfono para poder identificar y gestionar tu solicitud.</p>
+            </div>
+
+            <div class="form-field full">
+              <label for="codigo_licencia">Código de licencia <span class="optional">(opcional)</span></label>
+              <input id="codigo_licencia" name="codigo_licencia" maxlength="120" />
+              <p class="field-help">Si lo tenés a mano, ayuda a ubicar tu servicio más rápido. No es obligatorio para enviar la solicitud.</p>
+            </div>
+
+            <div class="form-field full">
+              <label for="motivo">Comentario <span class="optional">(opcional)</span></label>
+              <textarea id="motivo" name="motivo" maxlength="1500" placeholder="Podés agregar una aclaración si lo necesitás."></textarea>
+            </div>
+          </div>
+
+          <div class="form-submit">
+            <button class="btn btn-primary btn-large" type="submit">Solicitar baja del servicio</button>
+          </div>
+          <div id="form-status" class="form-status" hidden aria-live="polite"></div>
+        </form>
+      </section>
+
+      <p class="legal-footnote">Los datos ingresados se utilizan para registrar, identificar y gestionar esta solicitud.</p>
+    </div>
+  </main>
+
+  <script src="solicitud.js"></script>
+</body>
+</html>
