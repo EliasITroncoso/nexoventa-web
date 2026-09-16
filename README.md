@@ -14,3 +14,9 @@ No se incluye ninguna clave de servicio/administración en el frontend. La web u
 
 ## Legal v1.4
 Se agregaron terminos.html y privacidad.html y enlaces desde el footer y formularios legales. Antes del lanzamiento comercial deben completarse los datos legales identificatorios del proveedor/responsable que figuran como pendientes en ambas paginas.
+
+
+## Web v1.5
+- Nueva sección “Cómo empezar” en 3 pasos.
+- CTA “Quiero NexoVenta” conectado directamente a WhatsApp con mensaje preescrito.
+- Se mantienen sin cambios funcionales Baja, Arrepentimiento, Términos y Privacidad.
