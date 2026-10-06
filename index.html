@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>NexoVenta | Gestioná tu comercio desde el celular</title>
-  <meta name="description" content="NexoVenta es una app Android para comercios: clientes, ventas, productos, catálogo por categorías y gestión simple desde el celular." />
+  <title>NexoVenta | Software para comercios y desarrollo a medida</title>
+  <meta name="description" content="NexoVenta ofrece software de gestión para comercios en Android y PC, además de desarrollo de soluciones a medida para negocios." />
   <meta name="theme-color" content="#0f172a" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,414 +16,106 @@
   <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#inicio" aria-label="NexoVenta">
-        <img src="assets/nexoventa-logo.png" alt="Logo de NexoVenta" class="brand-logo">
-        <div>
-          <strong>NexoVenta</strong>
-          <span>Tu negocio, organizado</span>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="#inicio" aria-label="NexoVenta">
+      <img src="assets/nexoventa-logo.png" alt="Logo de NexoVenta" class="brand-logo">
+      <div><strong>NexoVenta</strong><span>Tecnología para tu negocio</span></div>
+    </a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav">
+      <a href="#producto">NexoVenta</a>
+      <a href="#planes">Planes</a>
+      <a href="#desarrollo">A medida</a>
+      <a href="#como-trabajamos">Cómo trabajamos</a>
+      <a href="#faq">Preguntas</a>
+      <a class="btn btn-sm btn-primary" href="#contacto">Hablemos</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero hero-v2" id="inicio">
+    <div class="container hero-grid hero-grid-v2">
+      <div class="hero-copy">
+        <span class="eyebrow">Software para negocios reales</span>
+        <h1>Tecnología pensada para tu negocio.</h1>
+        <p class="lead">Software de gestión para comercios y desarrollo de soluciones a medida. Trabajá con NexoVenta desde Android o PC, o contanos qué necesita tu negocio y desarrollamos una solución específica.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#producto">Conocer NexoVenta</a>
+          <a class="btn btn-secondary" href="https://wa.me/5493329608566?text=Hola%20%F0%9F%91%8B%20Llegu%C3%A9%20desde%20la%20web%20de%20NexoVenta.%20Tengo%20una%20idea%20o%20necesidad%20para%20mi%20negocio%20y%20quisiera%20consultar%20por%20un%20desarrollo%20a%20medida." target="_blank" rel="noopener">Necesito un desarrollo a medida</a>
         </div>
-      </a>
-
-      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
-
-      <nav class="main-nav">
-        <a href="#funciones">Funciones</a>
-        <a href="#capturas">Conocé la app</a>
-        <a href="#comercios">Para quién</a>
-        <a href="#precio">Precio</a>
-        <a href="#como-empezar">Cómo empezar</a>
-        <a href="#faq">Preguntas</a>
-        <a class="btn btn-sm btn-primary" href="https://wa.me/5493329608566?text=Hola%20%F0%9F%91%8B%20Vi%20NexoVenta%20en%20la%20web%20y%20quiero%20informaci%C3%B3n%20para%20empezar%20a%20usarlo." target="_blank" rel="noopener">Quiero NexoVenta</a>
-      </nav>
+        <div class="trust-row"><span>✓ Android</span><span>✓ PC</span><span>✓ Web</span><span>✓ Atención directa</span></div>
+      </div>
+      <div class="ecosystem-visual" aria-label="NexoVenta en PC y Android">
+        <div class="desktop-mock">
+          <div class="desktop-top"><i></i><i></i><i></i><b>NexoVenta PC</b></div>
+          <div class="desktop-body">
+            <aside><strong>NexoVenta</strong><span>Inicio</span><span>Vender</span><span>Productos</span><span>Clientes</span><span>Informes</span><span>Cajas</span></aside>
+            <div class="desktop-content"><small>Panel de gestión</small><h3>Tu comercio, bajo control</h3><div class="stat-row"><span>Ventas</span><span>Productos</span><span>Caja</span></div><div class="fake-chart"></div></div>
+          </div>
+        </div>
+        <div class="phone mini-phone"><div class="phone-notch"></div><img src="assets/nexoventa-principal.jpg" alt="NexoVenta Android funcionando" class="real-screen"></div>
+      </div>
     </div>
-  </header>
+  </section>
 
-  <main>
-    <section class="hero" id="inicio">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <span class="eyebrow">NexoVenta v1.5.0 · Android</span>
-          <h1>Gestioná clientes, ventas y productos desde el celular.</h1>
-          <p class="lead">
-            NexoVenta reúne en una sola app las tareas diarias de tu comercio:
-            clientes, ventas por fecha, productos, catálogo visual por categorías y más.
-          </p>
-
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="https://wa.me/5493329608566?text=Hola%20%F0%9F%91%8B%20Vi%20NexoVenta%20en%20la%20web%20y%20quiero%20informaci%C3%B3n%20para%20empezar%20a%20usarlo." target="_blank" rel="noopener">Quiero NexoVenta</a>
-            <a class="btn btn-secondary" href="#capturas">Ver la app real</a>
-          </div>
-
-          <div class="trust-row">
-            <span>✓ Interfaz simple</span>
-            <span>✓ Pensado para comercios</span>
-            <span>✓ Todo desde Android</span>
-          </div>
-        </div>
-
-        <div class="phone-card">
-          <div class="phone real-phone">
-            <div class="phone-notch"></div>
-            <img src="assets/nexoventa-principal.jpg" alt="Pantalla principal real de NexoVenta" class="real-screen">
-          </div>
-          <p class="mock-note">Captura real de NexoVenta funcionando.</p>
-        </div>
+  <section class="section section-soft" id="producto">
+    <div class="container">
+      <div class="section-heading center-heading"><span class="eyebrow">Un NexoVenta. Distintas formas de trabajar.</span><h2>Elegí la herramienta que mejor acompaña a tu comercio</h2><p>NexoVenta creció. Hoy podés gestionar desde el celular o llevar la operación y administración de tu comercio a la PC.</p></div>
+      <div class="platform-grid">
+        <article class="platform-card android-card"><div class="platform-icon">📱</div><span class="platform-label">NEXOVENTA ANDROID</span><h3>Tu negocio con vos</h3><p>Una solución móvil para registrar clientes, productos y ventas, trabajar con catálogo visual y consultar la actividad del comercio desde Android.</p><ul><li>Clientes y productos</li><li>Ventas y resumen diario</li><li>Catálogo visual</li><li>PDF y compartir</li><li>Backup propio</li></ul><a class="text-link" href="#plan-android">Ver plan Android →</a></article>
+        <article class="platform-card pc-card"><div class="platform-icon">💻</div><span class="platform-label">NEXOVENTA PC</span><h3>El centro de gestión de tu comercio</h3><p>Punto de venta y administración desde escritorio, pensado para una operación más completa y ágil en el mostrador.</p><ul><li>Ventas y punto de venta</li><li>Productos, stock y categorías</li><li>Clientes</li><li>Cajas e informes</li><li>Plan Fiscal con facturación ARCA</li></ul><a class="text-link" href="#plan-pc">Ver planes PC →</a></article>
       </div>
-    </section>
-
-    <section class="section section-soft" id="funciones">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">Todo en un mismo lugar</span>
-          <h2>Funciones para el día a día del comercio</h2>
-          <p>Menos vueltas y más control desde el teléfono.</p>
-        </div>
-
-        <div class="feature-grid">
-          <article class="feature-card">
-            <div class="icon">👥</div>
-            <h3>Clientes</h3>
-            <p>Registrá y buscá clientes por nombre o dirección, con acceso rápido a cada ficha.</p>
-          </article>
-
-          <article class="feature-card">
-            <div class="icon">🧾</div>
-            <h3>Ventas</h3>
-            <p>Consultá ventas por fecha y accedé al resumen diario cuando lo necesites.</p>
-          </article>
-
-          <article class="feature-card">
-            <div class="icon">📦</div>
-            <h3>Productos</h3>
-            <p>Organizá tu catálogo y mantené una estructura clara para trabajar más rápido.</p>
-          </article>
-
-          <article class="feature-card">
-            <div class="icon">🖼️</div>
-            <h3>Catálogo visual</h3>
-            <p>Mostrá categorías con imágenes para encontrar productos de forma rápida y visual.</p>
-          </article>
-
-          <article class="feature-card">
-            <div class="icon">🛒</div>
-            <h3>Carrito</h3>
-            <p>Sumá productos al carrito y prepará la venta desde una interfaz pensada para el comercio.</p>
-          </article>
-
-          <article class="feature-card">
-            <div class="icon">📄</div>
-            <h3>PDF y compartir</h3>
-            <p>La pantalla de catálogo incorpora acciones para generar PDF y compartir.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="capturas">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">La app real</span>
-          <h2>Conocé NexoVenta por dentro</h2>
-          <p>Estas capturas son de la versión actual funcionando en un comercio de ejemplo.</p>
-        </div>
-
-        <div class="showcase">
-          <article class="showcase-row">
-            <div class="shot-wrap">
-              <img src="assets/nexoventa-catalogo.jpg" alt="Catálogo real de NexoVenta">
-            </div>
-            <div class="showcase-copy">
-              <span class="number">01</span>
-              <h3>Catálogo visual por categorías</h3>
-              <p>
-                Aderezos, almacén, aperitivos, arroz y legumbres, bebidas y otras categorías
-                se muestran con imágenes para facilitar la selección.
-              </p>
-              <ul>
-                <li>Carrito visible</li>
-                <li>Acceso a PDF</li>
-                <li>Opción de compartir</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="showcase-row reverse">
-            <div class="shot-wrap">
-              <img src="assets/nexoventa-clientes.jpg" alt="Pantalla de clientes de NexoVenta">
-            </div>
-            <div class="showcase-copy">
-              <span class="number">02</span>
-              <h3>Clientes ordenados y fáciles de encontrar</h3>
-              <p>
-                Buscá por nombre o dirección y agregá nuevos clientes desde una pantalla limpia y directa.
-              </p>
-              <ul>
-                <li>Búsqueda rápida</li>
-                <li>Alta de nuevos clientes</li>
-                <li>Listado simple</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="showcase-row">
-            <div class="shot-wrap">
-              <img src="assets/nexoventa-ventas.jpg" alt="Pantalla de ventas por fecha de NexoVenta">
-            </div>
-            <div class="showcase-copy">
-              <span class="number">03</span>
-              <h3>Ventas por fecha y resumen diario</h3>
-              <p>
-                Elegí una fecha y consultá las ventas registradas de ese día. Desde la misma pantalla
-                podés acceder al resumen diario.
-              </p>
-              <ul>
-                <li>Consulta por fecha</li>
-                <li>Conteo de ventas del día</li>
-                <li>Resumen diario</li>
-              </ul>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-soft" id="comercios">
-      <div class="container split">
-        <div>
-          <span class="eyebrow">Flexible</span>
-          <h2>Ideal para muchos tipos de comercios</h2>
-          <p class="lead-sm">
-            NexoVenta puede adaptarse a negocios que necesitan registrar clientes, organizar productos,
-            consultar ventas y trabajar con catálogo.
-          </p>
-        </div>
-
-        <div class="chips">
-          <span>Almacenes</span>
-          <span>Kioscos</span>
-          <span>Distribuidoras</span>
-          <span>Dietéticas</span>
-          <span>Ferreterías</span>
-          <span>Perfumerías</span>
-          <span>Emprendimientos</span>
-          <span>Comercios barriales</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-dark" id="demo">
-      <div class="container demo-grid">
-        <div>
-          <span class="eyebrow eyebrow-light">NexoVenta en acción</span>
-          <h2>Una herramienta simple, visual y pensada para vender</h2>
-          <p>
-            La web ya muestra pantallas reales. Más adelante podemos sumar un video corto
-            con el recorrido completo: cliente, catálogo, productos y cierre de venta.
-          </p>
-          <a class="btn btn-light" href="https://wa.me/5493329608566?text=Hola%20%F0%9F%91%8B%20Vi%20NexoVenta%20en%20la%20web%20y%20quiero%20informaci%C3%B3n%20para%20empezar%20a%20usarlo." target="_blank" rel="noopener">Quiero más información</a>
-        </div>
-
-        <div class="demo-stack">
-          <img src="assets/nexoventa-principal.jpg" alt="NexoVenta pantalla principal">
-          <img src="assets/nexoventa-catalogo.jpg" alt="NexoVenta catálogo">
-        </div>
-      </div>
-    </section>
-
-
-    <section class="section pricing-section" id="precio">
-      <div class="container">
-        <div class="section-heading pricing-heading">
-          <span class="eyebrow">Precio simple y transparente</span>
-          <h2>Un solo plan para empezar a organizar tu comercio</h2>
-          <p>Sin grandes inversiones iniciales. NexoVenta desde tu celular por un abono mensual claro.</p>
-        </div>
-
-        <div class="pricing-card">
-          <div class="pricing-main">
-            <span class="plan-label">PLAN COMERCIO</span>
-            <h3>NexoVenta</h3>
-            <div class="price">
-              <span class="currency">$</span>
-              <strong>14.990</strong>
-              <span class="period">ARS / mes</span>
-            </div>
-            <p class="device-note">1 dispositivo incluido</p>
-
-            <a class="btn btn-primary btn-large pricing-button"
-               href="https://wa.me/5493329608566?text=Hola%20%F0%9F%91%8B%20Vi%20NexoVenta%20en%20la%20web%20y%20quiero%20informaci%C3%B3n%20para%20empezar%20a%20usarlo."
-               target="_blank"
-               rel="noopener">
-              Quiero NexoVenta
-            </a>
-            <p class="extra-device">¿Necesitás usar NexoVenta en más dispositivos? <a href="https://wa.me/5493329608566?text=Hola%20%F0%9F%91%8B%20Vi%20NexoVenta%20en%20la%20web%20y%20quiero%20informaci%C3%B3n%20para%20empezar%20a%20usarlo." target="_blank" rel="noopener">Consultanos.</a></p>
-          </div>
-
-          <div class="pricing-features">
-            <h4>Todo esto está incluido</h4>
-            <ul>
-              <li><span>✓</span> Gestión de clientes</li>
-              <li><span>✓</span> Productos y categorías</li>
-              <li><span>✓</span> Catálogo visual</li>
-              <li><span>✓</span> Registro y consulta de ventas</li>
-              <li><span>✓</span> Resumen diario</li>
-              <li><span>✓</span> Actualizaciones de NexoVenta</li>
-              <li><span>✓</span> Soporte por WhatsApp</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-soft how-start-section" id="como-empezar">
-      <div class="container">
-        <div class="section-heading how-start-heading">
-          <span class="eyebrow">Empezar es simple</span>
-          <h2>¿Cómo empezar con NexoVenta?</h2>
-          <p>Te acompañamos desde el primer contacto hasta tener NexoVenta funcionando en tu comercio.</p>
-        </div>
-
-        <div class="how-start-grid">
-          <article class="how-start-card">
-            <span class="how-step">1</span>
-            <div class="how-icon">💬</div>
-            <h3>Contactanos</h3>
-            <p>Escribinos por WhatsApp para conocer NexoVenta, resolver tus dudas y coordinar el alta.</p>
-          </article>
-
-          <article class="how-start-card">
-            <span class="how-step">2</span>
-            <div class="how-icon">📲</div>
-            <h3>Instalá NexoVenta</h3>
-            <p>Te enviamos el acceso para instalar la aplicación en tu dispositivo Android.</p>
-          </article>
-
-          <article class="how-start-card">
-            <span class="how-step">3</span>
-            <div class="how-icon">🔑</div>
-            <h3>Activá y empezá a trabajar</h3>
-            <p>Ingresás tu licencia, configurás los datos de tu comercio y NexoVenta queda listo para usar.</p>
-          </article>
-        </div>
-
-        <div class="how-start-action">
-          <a class="btn btn-primary btn-large" href="https://wa.me/5493329608566?text=Hola%20%F0%9F%91%8B%20Vi%20NexoVenta%20en%20la%20web%20y%20quiero%20informaci%C3%B3n%20para%20empezar%20a%20usarlo." target="_blank" rel="noopener">Quiero empezar con NexoVenta</a>
-          <p>Te respondemos por WhatsApp y te guiamos con la instalación y activación.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="faq">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">Preguntas frecuentes</span>
-          <h2>Lo esencial antes de empezar</h2>
-        </div>
-
-        <div class="faq-list">
-          <details>
-            <summary>¿En qué dispositivos funciona?</summary>
-            <p>NexoVenta está pensado para teléfonos Android.</p>
-          </details>
-
-          <details>
-            <summary>¿Necesito saber informática?</summary>
-            <p>No. La app está diseñada para ser simple y directa, con pantallas claras para las tareas habituales.</p>
-          </details>
-
-          <details>
-            <summary>¿Puedo organizar productos por categorías?</summary>
-            <p>Sí. El catálogo trabaja con categorías visuales para facilitar la búsqueda de productos.</p>
-          </details>
-
-          <details>
-            <summary>¿Puedo consultar ventas anteriores?</summary>
-            <p>Sí. Podés elegir una fecha y revisar las ventas registradas para ese día.</p>
-          </details>
-
-          <details>
-            <summary>¿Cuánto cuesta NexoVenta?</summary>
-            <p>El Plan Comercio cuesta $14.990 ARS por mes e incluye el uso de NexoVenta en 1 dispositivo.</p>
-          </details>
-
-          <details>
-            <summary>¿Qué incluye el abono mensual?</summary>
-            <p>Incluye las funciones del Plan Comercio, actualizaciones de NexoVenta y soporte por WhatsApp mientras la licencia esté activa.</p>
-          </details>
-
-          <details>
-            <summary>¿Puedo usar la misma licencia en varios teléfonos?</summary>
-            <p>El plan incluye 1 dispositivo. Si necesitás utilizar NexoVenta en más dispositivos, consultanos para evaluar tu caso.</p>
-          </details>
-
-          <details>
-            <summary>¿Qué pasa si cambio de teléfono?</summary>
-            <p>Contactanos por WhatsApp para gestionar el cambio de dispositivo y la activación correspondiente.</p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <section class="section cta-section" id="contacto">
-      <div class="container cta-box">
-        <div>
-          <span class="eyebrow">Lanzamiento</span>
-          <h2>Empezá con NexoVenta por $14.990 ARS/mes</h2>
-          <p>1 dispositivo incluido. Escribinos por WhatsApp para comenzar con la activación.</p>
-        </div>
-
-        <a class="btn btn-primary btn-large"
-           href="https://wa.me/5493329608566?text=Hola%20%F0%9F%91%8B%20Vi%20NexoVenta%20en%20la%20web%20y%20quiero%20informaci%C3%B3n%20para%20empezar%20a%20usarlo."
-           target="_blank"
-           rel="noopener">
-          Hablar por WhatsApp
-        </a>
-      </div>
-    </section>
-    <section class="legal-actions-section" aria-labelledby="gestiones-legales-title">
-      <div class="container legal-actions-box">
-        <div>
-          <span class="eyebrow">Gestiones online</span>
-          <h2 id="gestiones-legales-title">Baja del servicio y arrepentimiento</h2>
-          <p>Podés iniciar estas gestiones directamente desde la web, sin registrarte ni iniciar sesión. Al enviar el formulario recibís un número de solicitud.</p>
-        </div>
-        <div class="legal-action-buttons">
-          <a class="btn btn-outline-danger" href="baja.html">BOTÓN DE BAJA DE SERVICIO</a>
-          <a class="btn btn-outline-blue" href="arrepentimiento.html">BOTÓN DE ARREPENTIMIENTO</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <div class="footer-brand">
-        <img src="assets/nexoventa-logo.png" alt="" class="footer-logo">
-        <div>
-          <strong>NexoVenta</strong>
-          <p>Gestión simple para comercios desde Android.</p>
-        </div>
-      </div>
-      <div>
-        <div class="footer-links">
-          <a href="#funciones">Funciones</a>
-          <a href="#capturas">La app</a>
-          <a href="#faq">Preguntas</a>
-          <a href="#contacto">Contacto</a>
-        </div>
-        <div class="footer-legal">
-          <a href="terminos.html">Términos y Condiciones</a>
-          <a href="privacidad.html">Política de Privacidad</a>
-          <a href="baja.html">Baja del Servicio</a>
-          <a href="arrepentimiento.html">Botón de Arrepentimiento</a>
-        </div>
-      </div>
-      <p class="copyright">© <span id="year"></span> NexoVenta</p>
+      <p class="integration-note"><strong>NexoVenta sigue creciendo.</strong> Estamos desarrollando nuevas formas de conectar las herramientas del ecosistema. La sincronización entre PC y Android no se ofrece actualmente como una función integrada.</p>
     </div>
-  </footer>
+  </section>
 
-  <script src="script.js"></script>
+  <section class="section" id="planes">
+    <div class="container">
+      <div class="section-heading center-heading"><span class="eyebrow">Planes claros</span><h2>Elegí cómo querés trabajar</h2><p>Precios mensuales actuales. Todos los planes incluyen actualizaciones y soporte.</p></div>
+      <div class="plans-grid">
+        <article class="plan-card" id="plan-android"><span class="plan-kicker">ANDROID</span><h3>NexoVenta Android</h3><p class="plan-desc">Gestión móvil para comercios.</p><div class="plan-price"><strong>$14.990</strong><span>ARS / mes</span></div><ul><li>✓ Clientes, productos y categorías</li><li>✓ Ventas y resumen diario</li><li>✓ Catálogo visual</li><li>✓ PDF y compartir</li><li>✓ 1 dispositivo</li></ul><a class="btn btn-secondary plan-btn" href="https://wa.me/5493329608566?text=Hola%20%F0%9F%91%8B%20Vi%20NexoVenta%20Android%20en%20la%20web%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener">Consultar Android</a></article>
+        <article class="plan-card" id="plan-pc"><span class="plan-kicker">PC · GESTIÓN</span><h3>NexoVenta PC</h3><p class="plan-desc">Punto de venta y administración del comercio.</p><div class="plan-price"><strong>$24.990</strong><span>ARS / mes</span></div><ul><li>✓ Punto de venta</li><li>✓ Productos, stock y categorías</li><li>✓ Clientes</li><li>✓ Cajas</li><li>✓ Informes y gestión comercial</li></ul><a class="btn btn-primary plan-btn" href="https://wa.me/5493329608566?text=Hola%20%F0%9F%91%8B%20Vi%20el%20plan%20NexoVenta%20PC%20Gesti%C3%B3n%20en%20la%20web%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener">Consultar PC Gestión</a></article>
+        <article class="plan-card featured-plan fiscal-plan"><span class="recommended">RECOMENDADO</span><span class="plan-kicker">PC · FISCAL</span><h3>NexoVenta PC</h3><p class="plan-desc">Todo Gestión + facturación electrónica ARCA.</p><div class="plan-price"><strong>$34.990</strong><span>ARS / mes</span></div><ul><li>✓ Todo lo incluido en Gestión</li><li>✓ Facturación electrónica ARCA</li><li>✓ Flujo de venta integrado</li><li>✓ Actualizaciones</li><li>✓ Soporte por WhatsApp</li></ul><a class="btn btn-primary plan-btn" href="https://wa.me/5493329608566?text=Hola%20%F0%9F%91%8B%20Vi%20el%20plan%20NexoVenta%20PC%20Fiscal%20con%20facturaci%C3%B3n%20ARCA%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener">Consultar PC Fiscal</a></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section custom-section" id="desarrollo">
+    <div class="container custom-grid">
+      <div><span class="eyebrow eyebrow-light">Desarrollo a medida</span><h2>¿Tu negocio necesita algo diferente?</h2><p class="custom-lead">No todos los negocios trabajan de la misma manera. Si una solución estándar no alcanza, desarrollamos una herramienta adaptada a tu operación.</p><div class="custom-tags"><span>Android</span><span>PC</span><span>Web</span></div><a class="btn btn-light" href="https://wa.me/5493329608566?text=Hola%20%F0%9F%91%8B%20Llegu%C3%A9%20desde%20la%20web%20de%20NexoVenta.%20Tengo%20una%20idea%20o%20necesidad%20para%20mi%20negocio%20y%20quisiera%20consultar%20por%20un%20desarrollo%20a%20medida." target="_blank" rel="noopener">Quiero contarte mi idea</a></div>
+      <div class="custom-panel"><span>DESDE UNA NECESIDAD PUNTUAL</span><strong>hasta un sistema completo.</strong><p>Primero entendemos qué necesitás, cómo funciona tu negocio y qué soporte tiene sentido. Después definimos alcance y presupuesto.</p><div class="no-template">Sin paquetes genéricos.<br>Sin presupuestar antes de entender el problema.</div></div>
+    </div>
+  </section>
+
+  <section class="section section-soft" id="como-trabajamos">
+    <div class="container"><div class="section-heading center-heading"><span class="eyebrow">Nuestro proceso</span><h2>De una necesidad a una solución que trabaja</h2></div><div class="process-grid">
+      <article><span>01</span><h3>Nos contás qué necesitás</h3><p>Entendemos el problema, el tamaño de la operación y cómo trabajás hoy.</p></article>
+      <article><span>02</span><h3>Diseñamos la solución</h3><p>Definimos funciones, plataforma, alcance y una propuesta concreta.</p></article>
+      <article><span>03</span><h3>Desarrollamos y probamos</h3><p>Construimos la herramienta y la ajustamos al funcionamiento real.</p></article>
+      <article><span>04</span><h3>La ponemos a trabajar</h3><p>Implementamos la solución y podemos continuar con soporte y mejoras.</p></article>
+    </div></div>
+  </section>
+
+  <section class="section product-story">
+    <div class="container story-grid"><div><span class="eyebrow">También creamos nuestros propios productos</span><h2>NexoVenta nació para resolver problemas reales de gestión.</h2><p>Lo que hoy ofrecemos a comercios empezó con la misma lógica que aplicamos al desarrollo a medida: detectar una necesidad, construir una solución simple y hacerla evolucionar con el uso real.</p></div><div class="story-badge"><img src="assets/nexoventa-logo.png" alt="NexoVenta"><strong>Producto propio.<br>Desarrollo continuo.</strong></div></div>
+  </section>
+
+  <section class="section" id="faq"><div class="container"><div class="section-heading"><span class="eyebrow">Preguntas frecuentes</span><h2>Lo esencial antes de empezar</h2></div><div class="faq-list">
+    <details><summary>¿NexoVenta funciona en Android y PC?</summary><p>Sí. NexoVenta cuenta con soluciones para Android y PC. Actualmente se comercializan como herramientas independientes; la sincronización entre ambas no forma parte de las funciones ofrecidas hoy.</p></details>
+    <details><summary>¿Cuál es la diferencia entre PC Gestión y PC Fiscal?</summary><p>PC Fiscal incluye todo lo del plan Gestión y suma facturación electrónica integrada con ARCA.</p></details>
+    <details><summary>¿Cuánto cuesta NexoVenta?</summary><p>Android cuesta $14.990 ARS/mes, PC Gestión $24.990 ARS/mes y PC Fiscal $34.990 ARS/mes.</p></details>
+    <details><summary>¿También desarrollan sistemas para otros tipos de negocios?</summary><p>Sí. Realizamos desarrollos a medida para necesidades que requieren una solución específica en Android, PC, web o una combinación según el proyecto.</p></details>
+    <details><summary>¿Cuánto cuesta un desarrollo a medida?</summary><p>Se cotiza según el alcance. Primero relevamos la necesidad, funciones, dimensión del proyecto y plataforma; después preparamos una propuesta y presupuesto.</p></details>
+  </div></div></section>
+
+  <section class="section cta-section" id="contacto"><div class="container dual-cta"><div><span class="eyebrow">¿Empezamos?</span><h2>Tu negocio puede trabajar mejor.</h2><p>Elegí NexoVenta o contanos qué necesitás desarrollar.</p></div><div class="dual-cta-actions"><a class="btn btn-primary btn-large" href="https://wa.me/5493329608566?text=Hola%20%F0%9F%91%8B%20Vi%20NexoVenta%20en%20la%20web%20y%20quiero%20saber%20qu%C3%A9%20plan%20se%20adapta%20mejor%20a%20mi%20negocio." target="_blank" rel="noopener">Quiero NexoVenta</a><a class="btn btn-secondary btn-large" href="https://wa.me/5493329608566?text=Hola%20%F0%9F%91%8B%20Tengo%20una%20idea%20o%20necesidad%20para%20mi%20negocio%20y%20quisiera%20consultar%20por%20un%20desarrollo%20a%20medida." target="_blank" rel="noopener">Tengo una idea para desarrollar</a></div></div></section>
+
+  <section class="legal-actions-section" aria-labelledby="gestiones-legales-title"><div class="container legal-actions-box"><div><span class="eyebrow">Gestiones online</span><h2 id="gestiones-legales-title">Baja del servicio y arrepentimiento</h2><p>Podés iniciar estas gestiones directamente desde la web, sin registrarte ni iniciar sesión. Al enviar el formulario recibís un número de solicitud.</p></div><div class="legal-action-buttons"><a class="btn btn-outline-danger" href="baja.html">BOTÓN DE BAJA DE SERVICIO</a><a class="btn btn-outline-blue" href="arrepentimiento.html">BOTÓN DE ARREPENTIMIENTO</a></div></div></section>
+</main>
+
+<footer class="site-footer"><div class="container footer-wrap"><div class="footer-brand"><img src="assets/nexoventa-logo.png" alt="" class="footer-logo"><div><strong>NexoVenta</strong><p>Software para negocios reales.</p></div></div><div><div class="footer-links"><a href="#producto">NexoVenta</a><a href="#planes">Planes</a><a href="#desarrollo">A medida</a><a href="#contacto">Contacto</a></div><div class="footer-legal"><a href="terminos.html">Términos y Condiciones</a><a href="privacidad.html">Política de Privacidad</a><a href="baja.html">Baja del Servicio</a><a href="arrepentimiento.html">Botón de Arrepentimiento</a></div></div><p class="copyright">© <span id="year"></span> NexoVenta</p></div></footer>
+<script src="script.js"></script>
 </body>
 </html>
