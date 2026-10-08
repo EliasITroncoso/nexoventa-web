@@ -1,120 +1,72 @@
-# NexoVenta Web 2.0
+# NexoVenta Web — V2.1
 
-Sitio web oficial de NexoVenta.
+**Versión:** 2.1  
+**Actualización:** 8 de octubre de 2026  
+**Nombre:** Facturación y posicionamiento SEO
 
-🌐 https://nexoventa.com.ar
+Sitio oficial: https://nexoventa.com.ar/
 
-NexoVenta evoluciona de una solución exclusivamente móvil a una propuesta más amplia de software para comercios, incorporando NexoVenta para Android, NexoVenta para PC y servicios de desarrollo de software a medida.
+## Novedades de V2.1
 
-## NexoVenta Android
+### Facturación electrónica
+- La versión **NexoVenta PC Fiscal** se presenta como una opción comercial con facturación electrónica integrada con **ARCA**, de acuerdo con la confirmación de lanzamiento del titular.
+- Se actualizaron la presentación de la versión PC, el plan Fiscal y las preguntas frecuentes para retirar las menciones de «facturación en desarrollo».
+- Se incorporó la facturación a los títulos, descripciones y metadatos comerciales del sitio.
+- Precio anunciado en el paquete web: **$34.990 ARS/mes** para PC Fiscal. Confirmar vigencia antes de publicar.
+- No se anuncia sincronización Android–PC ni se prometen tipos de comprobantes que aún no hayan sido confirmados.
 
-Solución móvil para gestionar el comercio desde Android.
+### SEO e indexación
+- Se incorpora `sitemap.xml` con cinco URLs públicas del sitio.
+- Se incorpora `robots.txt` para facilitar el rastreo y declarar la ubicación del sitemap.
+- Se incorporan etiquetas `canonical` y `meta robots` a las cinco páginas.
+- Se optimizan el título y la descripción de la página principal.
+- Se incorporan metadatos Open Graph para compartir enlaces.
+- Se incorporan datos estructurados JSON-LD para `Organization`, `WebSite` y `SoftwareApplication`, incluyendo NexoVenta Android y PC Fiscal.
+- Se mantienen descripciones consistentes con las funciones anunciadas como disponibles.
 
-Funciones principales:
+## Funciones conservadas
+- Formularios de **Baja de servicio** y **Arrepentimiento**.
+- Integración de los formularios con Supabase y la función `crear-solicitud`.
+- Visualización de números de solicitud.
+- Páginas de Términos y Condiciones y Política de Privacidad.
+- Enlaces y botones de contacto por WhatsApp.
+- No se modifica la lógica de `script.js` ni de `solicitud.js`.
+- No se incluyen claves de administración o de servicio en el frontend; solo credenciales publicables donde corresponda.
 
-- Gestión de clientes.
-- Productos y categorías.
-- Registro y consulta de ventas.
-- Catálogo visual.
-- Resumen diario.
-- Copias de seguridad.
-- Soporte y actualizaciones.
+## Historial de versiones
 
-Precio actual:
+### V2.1 — Facturación y SEO
+- Publicidad del módulo PC Fiscal con ARCA como disponible, sujeto a validación operativa antes de su publicación comercial.
+- SEO técnico y metadatos estructurados.
+- Nuevos archivos `sitemap.xml` y `robots.txt`.
 
-**$14.990 ARS / mes**
+### V2.0 — Base anterior
+- Versión tomada como base para la presente actualización.
 
-## NexoVenta PC
+### V1.5
+- Sección «Cómo empezar» en tres pasos.
+- Botón «Quiero NexoVenta» hacia WhatsApp con mensaje predefinido.
+- Sin cambios funcionales en Baja, Arrepentimiento y páginas legales.
 
-Sistema de gestión y punto de venta para escritorio.
+### V1.4
+- Botones de Baja de Servicio y Arrepentimiento visibles desde la página principal.
+- Formularios integrados con Supabase mediante `crear-solicitud`.
+- Número de solicitud mostrado al usuario.
+- Inclusión de `terminos.html` y `privacidad.html`.
 
-Incluye herramientas para:
+## Publicación y verificación
 
-- Ventas.
-- Productos y stock.
-- Clientes.
-- Categorías.
-- Cajas.
-- Informes.
-- Medios de pago.
-- Comprobantes.
-- Operación mediante cajeros/usuarios.
+1. Conservar el paquete **V2.0** como respaldo.
+2. Publicar el contenido de **V2.1** en Cloudflare Pages.
+3. Comprobar que la web y sus formularios sigan funcionando.
+4. Confirmar que `https://nexoventa.com.ar/sitemap.xml` y `https://nexoventa.com.ar/robots.txt` respondan correctamente (HTTP 200).
+5. En **Google Search Console → Indexación → Sitemaps**, enviar `sitemap.xml`.
+6. Verificar indexación y rendimiento en los días siguientes. La indexación y el posicionamiento no están garantizados.
 
-### Plan Gestión
+## Pendientes
+- Confirmar operación de facturación electrónica en producción, alta fiscal de clientes y vigencia del precio anunciado.
+- Completar y revisar la información identificatoria pendiente de los documentos legales.
+- Medir resultados de búsqueda, clics y consultas comerciales para priorizar futuras mejoras SEO.
+- **Registro legal de la marca NexoVenta en INPI:** pendiente; no se presentó solicitud ni se realizó pago.
 
-**$24.990 ARS / mes**
-
-Sistema de gestión comercial y punto de venta.
-
-### Plan Fiscal
-
-**$34.990 ARS / mes**
-
-Incluye todo lo disponible en el Plan Gestión más:
-
-- Facturación electrónica integrada con ARCA.
-
-El Plan Fiscal se presenta comercialmente como la opción recomendada.
-
-## Android + PC
-
-NexoVenta Android y NexoVenta PC forman parte del mismo ecosistema de productos.
-
-Actualmente funcionan como soluciones independientes.
-
-La integración y sincronización entre ambas plataformas forma parte de la evolución futura de NexoVenta y no se presenta actualmente como una funcionalidad disponible.
-
-## Desarrollo a medida
-
-NexoVenta también ofrece desarrollo de soluciones de software adaptadas a las necesidades de cada negocio.
-
-Plataformas contempladas:
-
-- Android.
-- PC.
-- Web.
-- Soluciones combinadas.
-
-Los desarrollos a medida no tienen un precio estándar.
-
-El proceso comercial consiste en relevar primero las necesidades, alcance, dimensiones del negocio y plataformas requeridas para luego elaborar una propuesta y presupuesto.
-
-## Web 2.0
-
-Principales cambios:
-
-- Nuevo posicionamiento general de NexoVenta.
-- Android y PC presentados dentro de una misma marca.
-- Incorporación de NexoVenta PC.
-- Plan Gestión: $24.990/mes.
-- Plan Fiscal: $34.990/mes.
-- Plan Fiscal destacado como recomendado.
-- Incorporación de servicios de desarrollo a medida.
-- Nuevo flujo comercial específico para desarrollos.
-- Nueva sección sobre el proceso de trabajo.
-- Nuevo hero orientado a software para negocios.
-- Se mantiene la comunicación por WhatsApp mediante CTA comerciales.
-
-## Sistema legal
-
-El sitio mantiene:
-
-- Baja de Servicio.
-- Botón de Arrepentimiento.
-- Términos y Condiciones.
-- Política de Privacidad.
-- Formularios conectados con la Edge Function `crear-solicitud` de Supabase.
-- Generación inmediata de número de solicitud.
-
-No se incluyen claves de servicio o administración de Supabase en el frontend.
-
-## Infraestructura
-
-El sitio utiliza:
-
-- GitHub para control de versiones.
-- Cloudflare Workers & Pages para despliegue.
-- Dominio nexoventa.com.ar.
-- Supabase para servicios backend asociados.
-
-Los cambios publicados en la rama principal del repositorio se despliegan automáticamente mediante Cloudflare.
+> **Estado:** V2.1 preparada para publicación. La publicación efectiva y las comprobaciones en producción deben realizarse por separado.
