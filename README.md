@@ -1,72 +1,65 @@
-# NexoVenta Web — V2.1
+# NexoVenta Web V2.2
 
-**Versión:** 2.1  
-**Actualización:** 8 de octubre de 2026  
-**Nombre:** Facturación y posicionamiento SEO
+**Versión:** 2.2  
+**Fecha:** 08/10/2026  
+**Nombre:** Posicionamiento SEO comercial  
+**Publicación:** pendiente de desplegar y verificar en Cloudflare Pages.
 
-Sitio oficial: https://nexoventa.com.ar/
+## Objetivo de V2.2
 
-## Novedades de V2.1
+Mejorar la visibilidad orgánica de NexoVenta ante comerciantes de Argentina que buscan software de ventas, control de stock, gestión comercial y facturación electrónica. La indexación y el posicionamiento dependen de los buscadores y no están garantizados.
 
-### Facturación electrónica
-- La versión **NexoVenta PC Fiscal** se presenta como una opción comercial con facturación electrónica integrada con **ARCA**, de acuerdo con la confirmación de lanzamiento del titular.
-- Se actualizaron la presentación de la versión PC, el plan Fiscal y las preguntas frecuentes para retirar las menciones de «facturación en desarrollo».
-- Se incorporó la facturación a los títulos, descripciones y metadatos comerciales del sitio.
-- Precio anunciado en el paquete web: **$34.990 ARS/mes** para PC Fiscal. Confirmar vigencia antes de publicar.
-- No se anuncia sincronización Android–PC ni se prometen tipos de comprobantes que aún no hayan sido confirmados.
+## Novedades V2.2 (respecto de V2.1)
 
-### SEO e indexación
-- Se incorpora `sitemap.xml` con cinco URLs públicas del sitio.
-- Se incorpora `robots.txt` para facilitar el rastreo y declarar la ubicación del sitemap.
-- Se incorporan etiquetas `canonical` y `meta robots` a las cinco páginas.
-- Se optimizan el título y la descripción de la página principal.
-- Se incorporan metadatos Open Graph para compartir enlaces.
-- Se incorporan datos estructurados JSON-LD para `Organization`, `WebSite` y `SoftwareApplication`, incluyendo NexoVenta Android y PC Fiscal.
-- Se mantienen descripciones consistentes con las funciones anunciadas como disponibles.
+- Nueva página `software-gestion-comercios.html`, dedicada a búsquedas de gestión comercial, ventas y stock.
+- Nueva página `facturacion-electronica-arca.html`, dedicada a búsquedas relacionadas con facturación electrónica y ARCA.
+- Se mejoró el encabezado comercial de `index.html` y se incorporaron enlaces internos a ambas páginas.
+- Se amplió `sitemap.xml` de cinco a siete URL públicas, incluyendo ambas páginas nuevas.
+- Se mantuvieron los datos estructurados y metadatos SEO de la versión de base, con facturación electrónica de PC presentada como disponible según lo informado por el titular.
 
 ## Funciones conservadas
-- Formularios de **Baja de servicio** y **Arrepentimiento**.
-- Integración de los formularios con Supabase y la función `crear-solicitud`.
-- Visualización de números de solicitud.
-- Páginas de Términos y Condiciones y Política de Privacidad.
-- Enlaces y botones de contacto por WhatsApp.
-- No se modifica la lógica de `script.js` ni de `solicitud.js`.
-- No se incluyen claves de administración o de servicio en el frontend; solo credenciales publicables donde corresponda.
 
-## Historial de versiones
+- Página principal y oferta de Android, PC y PC Fiscal.
+- Enlaces a WhatsApp y navegación del sitio.
+- Formularios de baja de servicio y arrepentimiento y su integración existente con la Edge Function `crear-solicitud` de Supabase.
+- Documentos de términos y privacidad.
+- Recursos gráficos, estilos y archivos JS preexistentes.
 
-### V2.1 — Facturación y SEO
-- Publicidad del módulo PC Fiscal con ARCA como disponible, sujeto a validación operativa antes de su publicación comercial.
-- SEO técnico y metadatos estructurados.
-- Nuevos archivos `sitemap.xml` y `robots.txt`.
+**No se modificaron** `script.js`, `solicitud.js` ni la configuración de Supabase. No se anuncia sincronización Android–PC como función implementada ni habilitación fiscal automática del cliente.
 
-### V2.0 — Base anterior
-- Versión tomada como base para la presente actualización.
+## Historial resumido
 
-### V1.5
+### V2.1 — Facturación electrónica y SEO técnico
+- Se pasó a presentar la facturación electrónica integrada con ARCA de NexoVenta PC Fiscal como disponible, según la confirmación del titular.
+- Se incorporaron `sitemap.xml` y `robots.txt`, metadatos SEO, etiquetas sociales y datos estructurados para buscadores.
+- Se verificó `nexoventa.com.ar` en Google Search Console y se comprobó que su página principal estaba indexada. La aceptación del sitemap por Search Console seguía pendiente.
+
+### V2.0 — Web comercial previa
+- Base del diseño y de la oferta comercial anterior a las optimizaciones SEO.
+
+### V1.5 — Inicio y contacto
 - Sección «Cómo empezar» en tres pasos.
-- Botón «Quiero NexoVenta» hacia WhatsApp con mensaje predefinido.
-- Sin cambios funcionales en Baja, Arrepentimiento y páginas legales.
+- Botón «Quiero NexoVenta» con enlace a WhatsApp y mensaje predefinido.
 
-### V1.4
-- Botones de Baja de Servicio y Arrepentimiento visibles desde la página principal.
-- Formularios integrados con Supabase mediante `crear-solicitud`.
-- Número de solicitud mostrado al usuario.
-- Inclusión de `terminos.html` y `privacidad.html`.
+### V1.4 — Trámites y legales
+- Formularios de baja y arrepentimiento vinculados a Supabase, con generación de número de solicitud.
+- Páginas `terminos.html` y `privacidad.html`.
 
-## Publicación y verificación
+## Publicación de V2.2 en Cloudflare Pages
 
-1. Conservar el paquete **V2.0** como respaldo.
-2. Publicar el contenido de **V2.1** en Cloudflare Pages.
-3. Comprobar que la web y sus formularios sigan funcionando.
-4. Confirmar que `https://nexoventa.com.ar/sitemap.xml` y `https://nexoventa.com.ar/robots.txt` respondan correctamente (HTTP 200).
-5. En **Google Search Console → Indexación → Sitemaps**, enviar `sitemap.xml`.
-6. Verificar indexación y rendimiento en los días siguientes. La indexación y el posicionamiento no están garantizados.
+1. Conservar una copia de seguridad de la V2.1 publicada.
+2. Subir el contenido de este paquete manteniendo los archivos en la raíz del sitio y `assets/` como subcarpeta.
+3. Comprobar `https://nexoventa.com.ar/`, las dos páginas nuevas, `https://nexoventa.com.ar/sitemap.xml` y `https://nexoventa.com.ar/robots.txt`.
+4. Probar navegación, WhatsApp y formularios de solicitud en la web publicada, sin generar solicitudes reales innecesarias.
+5. Revisar el sitemap desde Google Search Console una vez disponible; puede tardar en procesarse. No solicitar indexación del archivo XML como página.
 
 ## Pendientes
-- Confirmar operación de facturación electrónica en producción, alta fiscal de clientes y vigencia del precio anunciado.
-- Completar y revisar la información identificatoria pendiente de los documentos legales.
-- Medir resultados de búsqueda, clics y consultas comerciales para priorizar futuras mejoras SEO.
-- **Registro legal de la marca NexoVenta en INPI:** pendiente; no se presentó solicitud ni se realizó pago.
 
-> **Estado:** V2.1 preparada para publicación. La publicación efectiva y las comprobaciones en producción deben realizarse por separado.
+- Completar los datos identificatorios aún pendientes en documentos legales antes de la comercialización definitiva.
+- Confirmar operatividad fiscal en producción para cada cliente y vigencia de los precios anunciados.
+- Medir impresiones, consultas, clics y contactos desde Search Console, una vez que haya datos.
+- El registro de la marca NexoVenta ante INPI está pausado y pendiente de revisión de antecedentes.
+
+## Seguridad
+
+El frontend debe usar únicamente credenciales publicables de Supabase. Nunca incluir `service_role` ni secretos privados en los archivos web.
