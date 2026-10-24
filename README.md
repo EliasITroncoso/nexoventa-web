@@ -1,9 +1,22 @@
-# NexoVenta Web V2.2
+# NexoVenta Web V3
 
-**Versión:** 2.2  
-**Fecha:** 08/10/2026  
-**Nombre:** Posicionamiento SEO comercial  
-**Publicación:** pendiente de desplegar y verificar en Cloudflare Pages.
+**Versión:** 3.0  
+**Fecha:** 24/10/2026  
+**Nombre:** Android y PC Madre  
+**Publicación:** pendiente de revisión, actualización de precios y verificación en Cloudflare Pages.
+
+## Novedades V3
+
+- Se actualizó la web para explicar la vinculación de Android con una PC Madre.
+- Se informa que la vinculación permite compartir catálogo y clientes; la PC Madre también puede enviar a Android el nombre, domicilio, teléfono y logo del comercio.
+- Se actualizó la descripción de PC para mencionar las listas de precios por modalidad comercial.
+- Se reemplazó la maqueta de PC y la captura antigua de Android en el encabezado por una ilustración del vínculo entre dispositivos. La ilustración se identifica como tal y no como una captura real del programa.
+- Se agregó una captura auténtica de NexoVenta PC v6.5.0 en la sección de producto. El recorte elimina la barra de Windows y conserva la interfaz completa del programa.
+- Se agregó un aviso de privacidad con opciones para aceptar o rechazar analítica. Google Analytics y Microsoft Clarity se cargan solo tras la aceptación; se puede cambiar la decisión desde «Preferencias de cookies».
+- Se actualizó la política de privacidad para informar sobre las herramientas de analítica y el almacenamiento local de la elección.
+- Se agregaron a la página principal cuatro capturas Android reutilizadas de V2.2: inicio, catálogo, clientes y ventas. Se aclara que son de una versión anterior y contienen datos de ejemplo.
+- Se actualizaron la página de gestión comercial, las preguntas frecuentes y los datos estructurados.
+- No se actualizaron precios ni se publicaron funciones de cámara o sincronización de fotos de productos: esas modificaciones todavía requieren validación funcional.
 
 ## Objetivo de V2.2
 
@@ -25,7 +38,7 @@ Mejorar la visibilidad orgánica de NexoVenta ante comerciantes de Argentina que
 - Documentos de términos y privacidad.
 - Recursos gráficos, estilos y archivos JS preexistentes.
 
-**No se modificaron** `script.js`, `solicitud.js` ni la configuración de Supabase. No se anuncia sincronización Android–PC como función implementada ni habilitación fiscal automática del cliente.
+Se conservaron los formularios, la integración existente con Supabase y las páginas legales. No se anuncia habilitación fiscal automática del cliente.
 
 ## Historial resumido
 
